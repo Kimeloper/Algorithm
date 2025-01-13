@@ -14,22 +14,18 @@ public class Main {
         for(int i = M ; i <= N; i++){
 
           boolean bool = true;
-          if(i == 1){
+          if(i == 1){//1은 소수가 아님
               bool = false;
           }
           for(int j = 2 ; j < i ; j++){
-              if(i == 1){//1은 소수가 아니다
-                  break;
-              }
              if(i % j == 0){//약수일땐 false로 변환
-                 bool = false;
-             
+                 bool = false; 
              }
           }
              if(bool == true){//소수일때
                  sum += i;
-                 if(min > i){
-                     min = i ;
+                 if(min > i){//최솟값
+                     min = i;
                  }
              }
         }
