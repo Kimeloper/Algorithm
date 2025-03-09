@@ -36,3 +36,11 @@ public class Main {
         sc.close();
     }
 }
+
+/*
+     HashSet이란?
+    -set인터페이스에서 지원하는 구현클래스로 중복을 허용하지않고 순서 상관없이 저장된다.
+     contains() 메서드를 사용하면 값이 있으면 true, 없으면 false 를 반환한다.
+    
+    Collection.sort(): 리스트에 저장된 값을 오름차순으로 정리해준다.
+/*
