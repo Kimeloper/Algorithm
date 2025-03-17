@@ -14,7 +14,7 @@ public class Main {
 
             System.out.println((A * B) / gcd(A, B));
         }
-    }
+    } 
 
     public static int gcd(int A , int B){
         if (B == 0) {
